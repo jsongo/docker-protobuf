@@ -9,4 +9,4 @@ ENV PROTOBUF_TAG v3.3.1
 
 RUN ./build.sh
 
-ENTRYPOINT ["protoc"]
+CMD ["protoc"]
