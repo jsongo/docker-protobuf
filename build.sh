@@ -4,7 +4,6 @@ set -e
 
 PACKAGES="git build-base autoconf automake libtool"
 
-apk update
 apk add --update $PACKAGES
 
 git clone https://github.com/google/protobuf -b $PROTOBUF_TAG --depth 1
